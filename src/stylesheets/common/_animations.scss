@@ -1,0 +1,79 @@
+// Animation Support
+
+.fadeInUp {
+    animation-duration: 0.45s;
+    animation-fill-mode: both;
+    animation-name: fadeInUp;
+}
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translate3d(0, 20px, 0);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+.fadeInDown {
+    animation-duration: 0.45s;
+    animation-fill-mode: both;
+    animation-name: fadeInDown;
+}
+
+@keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        transform: translate3d(0, -20px, 0);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+.rotateDownRight {
+    animation-duration: 0.25s;
+    animation-fill-mode: both;
+    animation-name: rotateDownRight;
+}
+
+@keyframes rotateDownRight {
+    100% {
+        transform: rotate(-90deg);
+    }
+}
+
+.rotateRightDown {
+    animation-duration: 0.25s;
+    animation-fill-mode: both;
+    animation-name: rotateRightDown;
+}
+
+@keyframes rotateRightDown {
+    0% {
+        transform: rotate(-90deg);
+    }
+}
+
+.fadeOutDown {
+    animation-duration: 0.45s;
+    animation-fill-mode: both;
+    animation-name: fadeOutDown;
+}
+
+@keyframes fadeOutDown {
+    0% {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+
+    100% {
+        opacity: 0;
+        transform: translate3d(0, 20px, 0);
+    }
+}
