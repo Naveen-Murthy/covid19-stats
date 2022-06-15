@@ -119,13 +119,14 @@ function Home() {
           <title>Coronavirus Stats of India</title>
         </Helmet>
       </HelmetProvider>
-      <main>
+      <section>
         {counts.length === 0 ? (
           <div>Loading...</div>
         ) : (
             <>
           <section>
-            <div className="d-flex gap-4 justify-content-center flex-wrap">
+          <div className="heading__text">Covid19 Stats</div>
+            <div className="d-flex gap-4 justify-content-center flex-wrap mt-4">
               {counts.map((data, index) => {
                 return (
                   <div
@@ -148,13 +149,15 @@ function Home() {
               })}
             </div>
           </section>
-          <section className="table-section mx-4">
-            <div className="table-header">State wise Report</div>
+          <section className="table-section">
+          <div className="heading__text">State wise Report</div>
+          <section className="mx-4">
             <EnhancedTable tableData={regional}/>
+          </section>
           </section>
           </>
         )}
-      </main>
+      </section>
     </>
   );
 }

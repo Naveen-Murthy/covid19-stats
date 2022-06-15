@@ -1,0 +1,9 @@
+@import './stylesheets/common/main';
+
+.main__section{
+    padding: 64px 20px 32px;
+
+    @include layout(768){
+        padding: 64px 16px 32px;
+    }
+}
