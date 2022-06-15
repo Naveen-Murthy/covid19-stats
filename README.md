@@ -36,6 +36,10 @@ npm i react-helmet-async
 
 ### Material Ui
 npm install @mui/material @emotion/react @emotion/styled
+npm install @mui/icons-material
 
 ### SCSS
 npm i node-sass
+
+### Routing
+npm i react-router-dom

@@ -125,7 +125,7 @@ function Home() {
         ) : (
             <>
           <section>
-          <div className="heading__text">Covid19 Stats</div>
+          <div className="heading__text">Stats</div>
             <div className="d-flex gap-4 justify-content-center flex-wrap mt-4">
               {counts.map((data, index) => {
                 return (
